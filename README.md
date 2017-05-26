@@ -4,15 +4,18 @@ Use this repo to get some practice making **small**, **composable** components.
 
 1. Replace the hard-coded `<h1>` in `App.js` with a functional React component (`Header.js`).
 2. Then, **set** a prop called `name` on your `Header` component (set the prop in `App.js`).
-  - Note that **setting** a prop and **getting** / **calling** a prop each use a particular syntax:
-    - **Setting** `props` - like an HTML attribute:
+
+      > Don't worry, we'll go over `props` in class. Be sure to check out the videos if you need a refresher!
+
+  - There are **2** steps involved for utilizing `props` - **setting** a prop and **getting** / **calling** a prop:
+    - **Setting** `props` - **declaring** your data. Syntax is like an HTML attribute:
     ```js
       // src/components/App.js
       <App>
         <MyComponent myProp="howdy" />
       </App>
     ```
-    - **Getting** `props` - like a JavaScript object:
+    - **Getting** `props` - **calling** and rendering your data. Syntax is like a JavaScript object:
     ```js
       // src/components/MyComponent.js
       <div>
